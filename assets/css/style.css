@@ -1,0 +1,254 @@
+@import url(component.css);
+
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E9DAC1;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+.henav{
+    display: flex;
+    padding: 20px;
+    width: 100%; 
+    background-color: #54BAB9;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+nav.navbar > ul.menu-navbar > li{
+    padding: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav.navbar > ul.menu-navbar > li:hover{
+    background-color: khaki;
+}
+
+.card{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    background-color:#F7ECDE;
+}
+
+.gambar > img{
+    width: 100%;
+    margin-top: 100px;
+}
+div.keterangan {
+    margin-right: 100px;
+    padding: 50px;
+}
+
+div.keterangan > h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+div.keterangan > p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+div.keterangan > .btn-group{
+    width: 100%;
+    margin-right: 100px;
+}
+
+.btn.beranda{
+    margin-top: 40px;
+}
+
+.card-1{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.card-1 > h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    padding: 10px 0px 25px 0px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.container img{
+    margin: center;
+    width: 70%;
+}
+.group{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 0 6px 0 0px;
+    text-align: center;
+}
+.group > h1{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.group > p{
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.about{
+    width: 95%;
+    margin: 10px auto;
+}
+
+.about > h2{
+    font-size: 40px;
+    text-align: center;
+}
+.box{
+    padding: 30px;
+    text-align: center;
+}
+
+.galery{
+    width: 95%;
+    margin: 10px auto;
+}
+.galery > h2{
+    font-size: 40px;
+    text-align: center;
+}
+.img-galery{
+    padding: 20px;
+    text-align: center;
+}
+.img-galery img{
+    width: 100%;
+}
+
+.tumnel{
+    display: flex;
+    padding: 10px;
+}
+.tumnel img{
+    width: 20%;
+    margin: auto;
+    border: 1px solid black;
+}
+img.thumb{
+    cursor: pointer;
+}
+img.thumb:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+.contact{
+    width: 95%;
+    margin: 20px auto;
+    background-color:#F7ECDE;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact > h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.form{
+    padding: 30px;
+    margin-left: 100px;
+}
+form input, textarea{
+    background-color: #54BAB9;
+    border: white;
+    padding: 3px;
+    color: white;
+}
+
+.profile img {
+    width: 200px;
+}
+
+aside{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(239, 136, 136, 0.2);
+}
+
+aside > article > section{
+    width: 100%;
+}
+aside section table{
+    padding: 30px;
+    margin: 0 auto;
+    width: 30%;
+}
+
+figure > figcaption{
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+
+.profile img {
+    width: 200px;
+}
+
+table{
+    margin-left: 35px ;
+}
+table > tbody > tr{
+    border-bottom: 2px solid black;
+}
+
+/* table > tbody > tr > th{
+text-align: right;
+}
+table > tbody > tr > td{
+text-align: left;
+
+} */
+
+footer{
+    background-color:#54BAB9;
+    padding: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+
+.active{
+    opacity: 0.5;
+}
+
+
+
+.fadeIn{
+    opacity: 0;
+    animation: fade 1s;
+}
+
+
+@keyframes fade {
+    to{
+        opacity: 0.5;
+    }
+
+}

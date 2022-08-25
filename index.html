@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsif.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <title>Petshop</title>
+</head>
+<body>
+    <header>
+        <div class="henav">
+        <h1>PETSHOP</h1>
+        <nav class="navbar">
+            <ul class="menu-navbar">
+                <li><a class="list-menu" href="#home">HOME</a></li>
+                <li><a class="list-menu" href="#services">OUR SERVICES</a></li>
+                <li><a class="list-menu" href="#about">ABOUT US</a></li>
+                <li><a class="list-menu" href="#galery">ALL GALERY</a></li>
+                <li><a class="list-menu" href="#contact">CONTACT US</a></li>
+            </ul>
+            <div id="responsif" class="d-none">
+              Open
+              </div>
+              <ul class="responsif-menu d-none">
+                  <li><a href="#home">HOME</a></li>
+                  <li><a href="#services">OUR SERVICES</a></li>
+                  <li><a href="#about">ABOUT US</a></li>
+                  <li><a href="#galery">ALL GALERY</a></li>
+                  <li><a href="#contact">CONTACT US</a></li>
+              </ul>
+          </div>
+        </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div id ="content">
+            <article id="home" class="card">
+                <div class="gambar">            
+                <img src="assets/gmbr/gbr3.png" alt="home">
+                </div>
+                <div class="keterangan">
+                <h2>WELCOME TO OUR PETSHOP</h2>
+                <p>Take Care And Love Your Animals</p>
+                <button class="btn beranda">START NOW</button>
+                </div>
+            </article>
+
+            <article id="services" class="card-1">
+                <h2>OUR SERVICES</h2>
+                <div class="container">
+                <section class="group">
+                    <img src="assets/gmbr/gbr5.jpg" alt="">
+                    <h1>PERAWATAN HEWAN</h1>
+                    <p>Perawatan hewan peliharaan atau grooming. Pada pelayanan ini kami melakukan
+                       perawatan pada hewan peliharaan kalian agar penampilannya terlihat sehat dan bersih.
+                    </p>
+                </section>
+                <section class="group">
+                    <img src="assets/gmbr/penitip.jpg" alt="" >
+                    <h1>PENITIPAN HEWAN</h1>
+                    <p>Kami menyediakan tempat penitipan hewan kesayangan kalian sehingga keamanannya terjaga dan cukup makan.
+                       Pelayanan ini bisa kalian gunakan ketika kalian sedang bekerja atau bepergian.
+                    </p>
+                </section>
+                <section class="group">
+                    <img src="assets/gmbr/pet.jpg" alt="">
+                    <h1>PETSHOP</h1>
+                    <p>Pelayanan yang menjual semua kebutuhan hewan mulai dari makanan, perlengkapan mandi, peralatan makanan, dan lain-lain.
+                    </p>
+                </section>
+                </div>
+            </article>
+
+            <article id="about" class="about">
+                <h2>ABOUT US</h2>
+                <div class="box">
+                   <p>PETSHOP kami menyediakan berbagai macam kebutuhan hewan peliharaan anda. 
+                   Dengan pekerja yang profesional dan berpengalaman di bidangnya masing-masing. PETSHOP kami tersedia di daerah Jambi,
+                   yang beralamat jalan sultan thaha No.59, Kecamatan Murni, Kota Jambi.</p>
+                </div>
+            </article>
+
+            <article id="galery" class="galery">
+              <h2>ALL GALERY</h2>
+              <div id="img-main" class="img-galery">
+                <img class="img-thumbnail" src="assets/gmbr/gbr1.jpg" alt="">
+              </div>
+              <div class="tumnel">
+                <img src="assets/gmbr/gbr2.jpg" class="thumb" alt="" onclick="tumnelChange(0)">
+                <img src="assets/gmbr/gbr9.jpg" alt="" class="thumb" onclick="tumnelChange(1)">
+                <img src="assets/gmbr/gbr4.jpg" alt="" class="thumb" onclick="tumnelChange(2)">
+                <img src="assets/gmbr/gbr10.png" alt="" class="thumb" onclick="tumnelChange(3)">
+              </div>
+            </article>
+
+            <article id="contact" class="contact">
+                <h2>CONTACT US</h2>
+                <div class="form">
+                    <form action="">
+                    <label for="name">NAMA </label> <br>
+                    <input type="text" id="name" name="name"> <br><br>
+                    <label for="email">EMAIL</label> <br>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="text-area">KETERANGAN</label><br>
+                    <textarea name="keterangan" id="keterangan" cols="30" rows="10"></textarea><br><br>
+                    <button class="btn send">KIRIM</button>
+                  </form> 
+              </div>
+            </article>
+        </div>
+
+    <aside>
+    <article class="profile">
+          <h2>BIODATA</h2>
+          <figure>
+            <img src="assets/gmbr/profil.jpg">
+            <figcaption>Profil</figcaption><br>
+          </figure>
+      <section>
+        <h3>Informasi Saya</h3>
+        <table>
+          <tbody align="left">
+            <tr>
+              <th>Nama</th>
+              <td>: Mu'azah Al'Adawiyah</td>
+            </tr>
+            <tr>
+              <th>TTL</th>
+              <td>: Jambi, 27 Juni 2001</td>
+            </tr>
+            <tr>
+              <th>Alamat</th>
+              <td>: Jalan Sultan Agung No.59</td>
+            </tr>
+            <tr>
+              <th>No.HP</th>
+              <td>: +62895615267334</td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td>: lunaalister6@gmail.com</td>
+            </tr>
+  
+          </tbody>
+        </table>
+      </section>
+    </article>  
+   </aside>
+  </main>  
+   
+
+   <footer>
+      <p>Belajar Dasar Pemrograman Web &#169; 2022, Dicoding</p>
+   </footer>
+
+    <script src="js/script.js"></script>
+    <!-- <script src="all.js"></script>
+    <script src="all.min.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+
+    nav.navbar > ul.menu-navbar{
+        display: none;
+    }
+
+    nav.navbar > div#responsif{
+        display: block;
+    }
+    ul.responsif-menu{
+        width: 100%;
+    }
+    
+}

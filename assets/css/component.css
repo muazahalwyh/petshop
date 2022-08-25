@@ -1,0 +1,22 @@
+.d-none{
+    display:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 100px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: #54BAB9;
+    border: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(230, 172, 101);
+    font-weight: bold;
+}
+
