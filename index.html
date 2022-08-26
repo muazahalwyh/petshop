@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsif.css">
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="stylesheet" href="assets/css/all.min.css">
+
     <title>Petshop</title>
 </head>
 <body>
@@ -23,7 +22,7 @@
                 <li><a class="list-menu" href="#contact">CONTACT US</a></li>
             </ul>
             <div id="responsif" class="d-none">
-              Open
+              <img src="assets/gmbr/bar.png" alt="">
               </div>
               <ul class="responsif-menu d-none">
                   <li><a href="#home">HOME</a></li>
@@ -41,12 +40,12 @@
         <div id ="content">
             <article id="home" class="card">
                 <div class="gambar">            
-                <img src="assets/gmbr/gbr3.png" alt="home">
+                <img src="assets/gmbr/gbr3.png" alt="home" height="70%">
                 </div>
                 <div class="keterangan">
                 <h2>WELCOME TO OUR PETSHOP</h2>
                 <p>Take Care And Love Your Animals</p>
-                <button class="btn beranda">START NOW</button>
+                <button class="btn beranda"><a href="#contact">CONTACT US</a></button>
                 </div>
             </article>
 
@@ -91,10 +90,10 @@
                 <img class="img-thumbnail" src="assets/gmbr/gbr1.jpg" alt="">
               </div>
               <div class="tumnel">
-                <img src="assets/gmbr/gbr2.jpg" class="thumb" alt="" onclick="tumnelChange(0)">
-                <img src="assets/gmbr/gbr9.jpg" alt="" class="thumb" onclick="tumnelChange(1)">
-                <img src="assets/gmbr/gbr4.jpg" alt="" class="thumb" onclick="tumnelChange(2)">
-                <img src="assets/gmbr/gbr10.png" alt="" class="thumb" onclick="tumnelChange(3)">
+                <img src="assets/gmbr/gbr2.jpg" alt="" class="thumb">
+                <img src="assets/gmbr/gbr9.jpg" alt="" class="thumb">
+                <img src="assets/gmbr/gbr4.jpg" alt="" class="thumb">
+                <img src="assets/gmbr/gbr10.png" alt="" class="thumb">
               </div>
             </article>
 
@@ -108,7 +107,7 @@
                     <input type="text" id="email" name="email"><br><br>
                     <label for="text-area">KETERANGAN</label><br>
                     <textarea name="keterangan" id="keterangan" cols="30" rows="10"></textarea><br><br>
-                    <button class="btn send">KIRIM</button>
+                    <button class="btn send" onclick="alert('Maaf Layanan Masih Belum Bisa Digunakan Terimakasih')">KIRIM</button>
                   </form> 
               </div>
             </article>
@@ -116,11 +115,13 @@
 
     <aside>
     <article class="profile">
+      <header>
           <h2>BIODATA</h2>
           <figure>
             <img src="assets/gmbr/profil.jpg">
             <figcaption>Profil</figcaption><br>
           </figure>
+      </header>
       <section>
         <h3>Informasi Saya</h3>
         <table>
@@ -145,7 +146,6 @@
               <th>Email</th>
               <td>: lunaalister6@gmail.com</td>
             </tr>
-  
           </tbody>
         </table>
       </section>
@@ -159,7 +159,5 @@
    </footer>
 
     <script src="js/script.js"></script>
-    <!-- <script src="all.js"></script>
-    <script src="all.min.js"></script> -->
 </body>
 </html>
