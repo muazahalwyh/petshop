@@ -30,7 +30,6 @@ nav.navbar > ul.menu-navbar > li{
     padding: 10px;
     font-weight: bold;
     display: inline-flex;
-    list-style: none;
 }
 nav.navbar > ul.menu-navbar > li:hover{
     background-color: khaki;
@@ -166,7 +165,6 @@ img.thumb:hover{
     opacity: 0.5;
 }
 
-
 .contact{
     width: 95%;
     margin: 20px auto;
@@ -231,18 +229,14 @@ footer{
     color: black;
 }
 
-
 .active{
     opacity: 0.5;
 }
-
-
 
 .fadeIn{
     opacity: 0;
     animation: fade 1s;
 }
-
 
 @keyframes fade {
     to{
